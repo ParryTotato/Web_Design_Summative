@@ -1,0 +1,129 @@
+<html>
+	<head>
+		<title>Japan Tourist Site</title>
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+		<link rel="stylesheet" href = "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"> </script>
+	</head>
+<body background="pics/flagbg.png">
+
+	<a name="top"></a>
+
+<div class="all">
+
+	<input type="checkbox" id="navclick">
+		<label for="navclick">&#9660;</label>
+
+	<script>
+		$('#navclick').click(function()
+		   	{
+		   	  if ($(this).is(':checked'))
+		   	  {
+		   		$(this).siblings('label').html('&#9650;');
+		   	  }
+		   	  else
+		   	  {
+		   		$(this).siblings('label').html('&#9660;');
+		   	  }
+		   	}
+ 		);
+ 	</script>
+
+	<div class="header">
+		<h1 class="title">
+			<img src="pics/logo.jpg" class="left">
+			Visit Japan
+			<img src="pics/logo.jpg" class="right">
+		</h1>
+
+		<ul class="navbar">
+			<li><a href="home.html" class="nav">Home</a></li>
+			<li><a href="attractions.html" class="nav">Tokyo Attractions</a></li>
+			<li><a href="food.html" class="nav">Food and Drinks</a></li>
+			<li><a href="culture.html" class="nav">Cultural Festivals</a></li>
+			<li><a href="contact.html" class="nav">Contact and Reserve</a></li>
+		</ul>
+	</div>
+
+	<div class="container">
+		<img src="pics/culture.jpg" class="banner">
+
+			<h1 class="bantext">View below for Japanese Culture</h1>
+
+		<p class="attext">The culture of Japan has evolved greatly over the millennia, from the country's Jomon period, to its contemporary festivals, which absorb influences from Asia, Europe, and North America.</h3>
+
+		<br><br>
+
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/fnpVucQXg98?ecver=1" frameborder="0" allowfullscreen></iframe>
+
+		<br><br>
+
+		<table>
+			<tr>
+				<th class="head" colspan="2">Cultures and Festivals in Japan</th>
+			</tr>
+
+			<tr>
+				<th width="20%" class="sub">Location</td>
+				<th width="80%" class="sub">Overview</td>
+			</tr>
+
+			<tr>
+				<th colspan="2" class="sub">Gion Matsuri</th>
+			</tr>
+
+			<tr>
+				<th class="sub">Kyoto</td>
+				<td>Gion Matsuri is a one of the most famous festivals in Japan. It takes place during the entire month of July, but the highlight is the grand procession of floats called “Yamaboko Junko” on the 17th and 24th. It takes place on the Kawaramachi and Oike Streets.</td>
+			</tr>
+
+			<tr>
+				<th colspan="2" class="sub">Awa Odori</th>
+			</tr>
+
+			<tr>
+				<th class="sub">Tokushima</td>
+				<td>This is the largest traditional dance festival in Japan. Men, women and children dance on almost all of the streets in Tokushima City, from the 12th to the 15th of August.  They wear summer cotton kimono and straw hats. More than a million people get together for this festival, and it is a spectacular sight.</td>
+			</tr>
+
+			<tr>
+				<th colspan="2" class="sub">Kanda Matsuri</th>
+			</tr>
+
+			<tr>
+				<th class="sub">Tokyo</td>
+				<td>Kanda Matsuri is one of the most famous festivals in Tokyo and is a festival for the Kanda Myojin Shrine. The main action happens during the middle of May. The portable shrines, called Mikoshi, are  accompanied by about a thousand people, and after they leave the Kanda Myojin Shrine in the morning, the  parade continues through the Kanda district, Nihonbashi and Akihabara and returns to the shrine in the evening.</td>
+			</tr>
+
+			<tr>
+				<th colspan="2" class="sub">Nebuta Matsuri</th>
+			</tr>
+
+			<tr>
+				<th class="sub">Aomori</td>
+				<td>The Nebuta Matsuri takes place from the 2nd to the 7th of August in Aomori City. Nebuta are lantern floats which depict human figures and are accompanied by thousands of chanting dancers. The parade starts at sunset and continues for hours.</td>
+			</tr>
+		</table>
+	</div>
+
+	<center>
+	<div class="foot">
+		<details>
+			<summary>Expand for a Back to Top Link</summary>
+				<a href="#top">Back to Top</a>
+		</details>
+
+		<hr>
+
+		<address>
+			Created by - Prateek Bansal<br>
+			on Friday June 9 2017<br>
+			All content, unless otherwise stated, is the property of Prateek Bansal
+		</address>
+	</div>
+	</center>
+</div>
+
+</body>
+</html>

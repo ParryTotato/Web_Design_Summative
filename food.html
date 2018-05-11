@@ -1,0 +1,149 @@
+<html>
+	<head>
+		<title>Japan Tourist Site</title>
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+		<link rel="stylesheet" href = "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"> </script>
+	</head>
+<body background="pics/flagbg.png">
+
+	<a name="top"></a>
+
+<div class="all">
+
+	<input type="checkbox" id="navclick">
+		<label for="navclick">&#9660;</label>
+
+	<script>
+		$('#navclick').click(function()
+		   	{
+		   	  if ($(this).is(':checked'))
+		   	  {
+		   		$(this).siblings('label').html('&#9650;');
+		   	  }
+		   	  else
+		   	  {
+		   		$(this).siblings('label').html('&#9660;');
+		   	  }
+		   	}
+ 		);
+ 	</script>
+
+	<div class="header">
+		<h1 class="title">
+			<img src="pics/logo.jpg" class="left">
+			Visit Japan
+			<img src="pics/logo.jpg" class="right">
+		</h1>
+
+		<ul class="navbar">
+			<li><a href="home.html" class="nav">Home</a></li>
+			<li><a href="attractions.html" class="nav">Tokyo Attractions</a></li>
+			<li><a href="food.html" class="nav">Food and Drinks</a></li>
+			<li><a href="culture.html" class="nav">Cultural Festivals</a></li>
+			<li><a href="contact.html" class="nav">Contact and Reserve</a></li>
+		</ul>
+	</div>
+
+
+
+	<div class="container">
+		<img src="pics/food.jpg" class="banner">
+
+			<h1 class="bantext">View below for Japanese Cuisine</h1>
+
+		<p class="attext">Japan is culturally diverse and known for its great food. It embodies the artistic side of Japan, as well as the beauty and the great tastes from the different sub-cultures. </h3>
+
+		<h2>Tokyo Signature Dishes</h2>
+			<ul class="nav nav-tabs">
+				<li class="active"> <a data-toggle="tab" href="#1" class="nav"> Sushi </a> </li>
+				<li> <a data-toggle="tab" href="#2" class="nav"> Soba </a> </li>
+				<li> <a data-toggle="tab" href="#3" class="nav"> Fukagawa-Meshi </a> </li>
+				<li> <a data-toggle="tab" href="#4" class="nav"> Ramen </a> </li>
+				<li> <a data-toggle="tab" href="#5" class="nav"> Sukiyaki </a> </li>
+			</ul>
+			<div class="tab-content">
+
+				<div id="1" class="tab-pane fade in active">
+					<h3>Sushi</h3>
+
+						<p class="atext">Sushi has grown into a popular cuisine the world over. From nigiri-zushi, or bite-sized balls of vinegar-flavored rice topped with pieces of fresh seasonal seafood, to chirashi-zushi, or a plate of this rice covered with a variety of ingredients, the eye-pleasing sushi is a tradition of Japan with universal appeal.Sushi can be prepared with either brown or white rice. It is often prepared with raw seafood, but some common varieties of sushi use cooked ingredients, and many other sorts are vegetarian. Sushi is often served with pickled ginger, wasabi, and soy sauce. Daikon radish is popular as a garnish.Sushi is often confused with sashimi, a related Japanese dish consisting of thinly sliced raw fish or occasionally meat, and an optional serving of rice. Sashimi is served as slices, unlike sushi, which is served as oval-shaped rolls.</p>
+
+						<h4 class="further">Click the image for further information</h4>
+
+						<a href="http://www.japan-guide.com/e/e2038.html"  class="attimg">
+							<img src="pics/sushi.jpg" alt="Nigiri Sushi Platter" description="Nigiri Sushi Platter" class="attimg">
+						</a>
+				</div>
+
+				<div id="2" class="tab-pane fade">
+					<h3>Soba</h3>
+
+						<p class="atext">In Japan, the word can refer to any thin noodle. Soba noodles are served either chilled with a dipping sauce, or in hot broth as a noodle soup.In Japan, soba noodles are served in a variety of settings throughout Japan, but are also served by expensive specialty restaurants. Markets sell dried noodles and men-tsuyu, or instant noodle broth, to make home preparation easy. There are a wide variety of dishes, both hot for winter and cold for summer, using these noodles.Soba is a good nutritional addition to a diet reliant on white rice and wheat flour. Thiamine, missing from white rice, is present in soba; eating thiamine (vitamin B1) can help prevent the disease beriberi. Soba contains all eight essential amino acids, including lysine, which is lacking in wheat flour. The tradition of eating soba arose in the Edo period.</p>
+
+						<h4 class="further">Click the image for further information</h4>
+
+						<a href="https://matcha-jp.com/en/3018"  class="attimg">
+							<img src="pics/soba.jpg" alt="Soba with Garnish" description="Soba with Garnish" class="attimg">
+						</a>
+				</div>
+
+				<div id="3" class="tab-pane fade">
+					<h3>Fukagawa-Meshi</h3>
+
+						<p class="atext">Fukagawa-Meshi is a bowl of rice topped with clams and Japanese long onions cooked in miso. The name Fukagawa comes from a town in Koto-ku, a ward in eastern Tokyo. During the Edo period (1603-1867), Fukagawa was a prosperous fishing town where many earned a living catching fish and clams, or gathering laver. The coastal waters around Fukagawa were once abundant in asari—Japanese littleneck clams—considered the area’s specialty. Fukagawa meshi is as easy to prepare as it is delicious and nutritious, and for the locals, this bowl of asari and rice was a daily treat—a kind of “fast food” for busy fishermen who enjoyed a quick bowl before casting off. These days there is another type of Fukagawa meshi in which clams are cooked with rice. Both types, however, remain familiar favorites and count among Tokyo’s culinary stars.</p>
+		`
+						<h4 class="further">Click the image for further information</h4>
+
+						<a href="https://www.kikkoman.com/en/foodforum/tasty-travel/26-1.html"  class="attimg">
+							<img src="pics/meshi.png" alt="Fukagawa-Meshi" description="Fukagawa-Meshi" class="attimg">
+						</a>
+				</div>
+
+				<div id="4" class="tab-pane fade">
+					<h3>Ramen</h3>
+
+						<p class="atext">Ramen is a noodle soup dish that was originally imported from China and has become one of the most popular dishes in Japan in recent decades. Ramen are inexpensive and widely available, two factors that also make them an ideal option for budget travelers. Ramen restaurants, or ramen-ya, can be found in virtually every corner of the country and produce countless regional variations of this common noodle dish. Ramen is a popular fast food that makes for an affordable meal in the city. There are types of ramen restaurants where you choose ramen you want at a vending machine by pressing the button to get a ticket, then give it the chef and wait for the ramen to be delivered to your table. </p>
+
+						<h4 class="further">Click the image for further information</h4>
+
+						<a href="http://www.ramenadventures.com/p/tokyo-ramen-map.html"  class="attimg">
+							<img src="pics/ramen.jpg" alt="Ramen Platter" description="Ramen Platter" class="attimg">
+						</a>
+				</div>
+
+				<div id="5" class="tab-pane fade">
+					<h3>Sukiyaki</h3>
+
+						<p class="atext">Sukiyaki is a meat dish particular to Japan, where thinly sliced meat (mainly beef) is prepared by cooking and stewing it in a shallow cast-iron pot. Ingredients other than meat are also added including leeks, Welsh onions, grilled tofu, chrysanthemum greens, shirataki, and shiitake mushrooms. Soy sauce and sugar are used for seasonings. The cooking methods differ between Kanto-style and Kansai-style. It is usually cooked right at the table in a Japanese hot pot style (nabemono). Like most Japanese foods, Sukiyaki has some cooking variations. The most common ingredients used in Tokyo include vegetables, tofu and negi, all of which are added to the beef and cooked, mixed with soy sauce, sugar and mirin. To soak up the broth, boiled udon or soba is sometimes added at the end. </p>
+
+						<h4 class="further">Click the image for further information</h4>
+
+						<a href="https://en.wikipedia.org/wiki/Sukiyaki"  class="attimg">
+							<img src="pics/Sukiyaki.jpg" alt="Sukiyaki" description="Sukiyaki" class="attimg">
+						</a>
+				</div>
+			</div>
+	</div>
+
+	<center>
+	<div class="foot">
+		<details>
+			<summary>Expand for a Back to Top Link</summary>
+				<a href="#top">Back to Top</a>
+		</details>
+
+		<hr>
+
+		<address>
+			Created by - Prateek Bansal<br>
+			on Friday June 9 2017<br>
+			All content, unless otherwise stated, is the property of Prateek Bansal
+		</address>
+	</div>
+	</center>
+</div>
+
+</body>
+</html>

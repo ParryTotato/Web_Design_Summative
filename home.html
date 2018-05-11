@@ -1,0 +1,119 @@
+<html>
+	<head>
+		<title>Japan Tourist Site</title>
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+		<link rel="stylesheet" href = "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"> </script>
+	</head>
+<body background="pics/flagbg.png">
+
+	<a name="top"></a>
+
+<div class="all">
+
+	<input type="checkbox" id="navclick">
+		<label for="navclick">&#9660;</label>
+
+	<script>
+		$('#navclick').click(function()
+		   	{
+		   	  if ($(this).is(':checked'))
+		   	  {
+		   		$(this).siblings('label').html('&#9650;');
+		   	  }
+		   	  else
+		   	  {
+		   		$(this).siblings('label').html('&#9660;');
+		   	  }
+		   	}
+ 		);
+ 	</script>
+
+	<div class="header">
+		<h1 class="title">
+			<img src="pics/logo.jpg" class="left">
+			Visit Japan
+			<img src="pics/logo.jpg" class="right">
+		</h1>
+
+		<ul class="navbar">
+			<li><a href="home.html" class="nav">Home</a></li>
+			<li><a href="attractions.html" class="nav">Tokyo Attractions</a></li>
+			<li><a href="food.html" class="nav">Food and Drinks</a></li>
+			<li><a href="culture.html" class="nav">Cultural Festivals</a></li>
+			<li><a href="contact.html" class="nav">Contact and Reserve</a></li>
+		</ul>
+	</div>
+
+	<div class="container">
+
+		<img src="pics/home.jpg" class="banner">
+
+		<h1 class="bantext">Welcome to Japan</h1>
+
+		<div class="hometext">
+			<h2>Japan's Location and Geographical Information</h2>
+				<blockquote>
+				Japan is an island nation located in Eastern Asia and is an archipelago consisting of 6 852 islands. <br>
+				The four largest are Honshu, Hokkaido, Kyushu and Shikoku, which make up about ninety-seven percent of Japan's land area. <br>
+				The area of the islands is estimated at 377,972 km<sup>2</sup>
+				</blockquote>
+			<img src="pics/japan.jpg" alt="Japan Map" description="Japanese Map with Flag" class="homeimgl">
+		</div>
+
+		<div class="hometext">
+			<h2>Japan's Population, Languages, and Religions</h2>
+				<blockquote>
+				Population of 126 730 000 <br>
+				Primary languages include a majority of Japanese, Korean, and Mandarin <br>
+				Religions include:51.882% Shinto;34.9% Buddhism;4% Shinto Sects;2.3% Christianity <br>
+				</blockquote>
+			<img src="pics/fan.jpg" alt="Fan" description="Japanese Foldable Hand Fan" class="homeimgr">
+		</div>
+
+		<div class="hometext">
+			<h2>Japan's Economy and Political System</h2>
+				<blockquote>
+				1 CAD is equivalent to 81.38 JPY<br>
+				Estimated Nominal GDP per Capita of $38,281 <br>
+				There is both a Parliamentary and Monarchy system<br>
+				-Emperor Akihito <br>
+				-Prime Minister Shinzo Abe
+				</blockquote>
+			<img src="pics/shinzo.jpg" alt="Prime Minister Abe" description="Prime Minister Abe" class="homeimgl">
+		</div>
+
+		<div class="hometext">
+			<h2>Japan General Facts</h2>
+				<blockquote>
+				Drive on the left side of the road<br>
+				Time zone is JST (UTC +9)<br>
+				Calling Code of +81 <br>
+				Japan written in Kanji means the origin of the sun
+				</blockquote>
+			<img src="pics/flag.png" alt="Prime Minister Abe" description="Prime Minister Abe" class="homeimgr">
+		</div>
+
+	</div>
+
+	<center>
+	<div class="foot">
+		<details>
+			<summary>Expand for a Back to Top Link</summary>
+				<a href="#top">Back to Top</a>
+		</details>
+
+		<hr>
+
+		<address>
+			Created by - Prateek Bansal<br>
+			on Friday June 9 2017<br>
+			All content, unless otherwise stated, is the property of Prateek Bansal
+		</address>
+	</div>
+	</center>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+<html>
+	<head>
+		<title>Japan Tourist Site</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"> </script>
+  		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"> </script>
+	</head>
+<body background="pics/flagbg.png">
+
+	<a name="top"></a>
+
+<div class="all">
+
+	<input type="checkbox" id="navclick">
+		<label for="navclick">&#9660;</label>
+
+	<script>
+		$('#navclick').click(function()
+		   	{
+		   	  if ($(this).is(':checked'))
+		   	  {
+		   		$(this).siblings('label').html('&#9650;');
+		   	  }
+		   	  else
+		   	  {
+		   		$(this).siblings('label').html('&#9660;');
+		   	  }
+		   	}
+ 		);
+ 	</script>
+
+	<div class="header">
+		<h1 class="title">
+			<img src="pics/logo.jpg" class="left">
+			Visit Japan
+			<img src="pics/logo.jpg" class="right">
+		</h1>
+
+		<ul class="navbar">
+			<li><a href="home.html" class="nav">Home</a></li>
+			<li><a href="attractions.html" class="nav">Tokyo Attractions</a></li>
+			<li><a href="food.html" class="nav">Food and Drinks</a></li>
+			<li><a href="culture.html" class="nav">Cultural Festivals</a></li>
+			<li><a href="contact.html" class="nav">Contact and Reserve</a></li>
+		</ul>
+	</div>
+
+	<div class="container">
+		<img src="pics/visit.jpg" class="banner">
+			<h1 class="bantext">Reserve your Visit and Contact Us Below</h1>
+
+		<form method="post" enctype="text/plain" action="mailto:bansp4188@googleapps.wrdsb.ca">
+				<p class="form">
+					<label>For what reason are you planning on Visiting Japan <br>
+						<input type="text" size="25" name="visit" placeholder="Reason" list="visit">
+							<datalist id="visit">
+								<select name="visit">
+									<option value="Personal">Personal
+									<option value="Business">Business
+								</select>
+							</datalist>
+				</p>
+				<br> <br> <br> <br> <br>
+				<p class="form">
+					<label>For how long do you expect to stay? <br>
+					<select name="time" size="1">
+						<option value="0-2">0-2 Weeks
+						<option value="3-4">3-4 weeks
+						<option value="5-8">5-8 Weeks
+						<option value="9-12">9-12 Weeks
+					</select>
+				</p>
+
+				<p class="form">
+					<label>Which Hotel Chain would suit you or your family? <br>
+						<label> <input type="radio" name="hotel" value="Park">Park Hotel	</label>
+						<label> <input type="radio" name="hotel" value="Sakura">Sakura Terrace	</label>
+						<label> <input type="radio" name="hotel" value="Mystars">Mystars Primer</label>
+						<label> <input type="radio" name="hotel" value="Ritz">Ritz-Carlton	</label>
+						<label> <input type="radio" name="hotel" value="Richmond">Richmond Hotel	</label>
+				</p>
+
+				<p class="form">
+					<label for="startdate">When would you like to schedule the trip <br>
+						<input type="date" min="2017-07-01" max="2018-07-01">
+				</p>
+
+				<p class="form">
+					<label>Additional Comments or Requests:<br>
+						<textarea name="comment" rows="6" cols="70" wrap></textarea>
+				</p>
+
+				<p class="buttons">
+					<input type="reset" value="Clear Inputs" class="button">
+					<input type="submit" value="Submit the Reservation" class="button">
+				</p>
+	</form>
+
+		<h1 class="bantext"> Click on the Links below to visit Social Media about Japan</h2>
+
+		<img src="pics/media.png" class="media" usemap="#media">
+
+	</div>
+
+	<center>
+	<div class="foot">
+		<details>
+			<summary>Expand for a Back to Top Link</summary>
+				<a href="#top">Back to Top</a>
+		</details>
+
+		<hr>
+
+		<address>
+			Created by - Prateek Bansal<br>
+			on Friday June 9 2017<br>
+			All content, unless otherwise stated, is the property of Prateek Bansal
+		</address>
+	</div>
+	</center>
+</div>
+
+<div>
+<map id="media" name="media">
+<area shape="rect" alt="Japanese Facebook" coords="14,16,152,140" href="https://www.facebook.com/japanese.me/" title="Japanese Facebook" />
+<area shape="rect" alt="Learn Japanese" coords="160,15,340,140" href="https://twitter.com/learnkanji?lang=en" title="Learn Japanese" />
+<area shape="rect" alt="Japan Google Plus" coords="370,15,,530,140" href="https://plus.google.com/+GoogleJapan" title="Japan Google Plus" />
+<area shape="rect" alt="Japan Reddit" coords="560,15,660,140" href="https://www.reddit.com/r/japan/" title="Japan Reddit" />
+<area shape="default" nohref="nohref" alt="" />
+</map>
+</div>
+</body>
+</html>
